@@ -1,0 +1,15 @@
+[package]
+name = "Ssl-checker-multithreaded-rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = { version = "0.4.41", features = ["serde"] }
+futures = "0.3.31"
+hex = "0.4.3"
+indicatif = "0.18.0"
+native-tls = "0.2.14"
+num_cpus = "1.17.0"
+rayon = "1.10.0"
+sha2 = "0.10.9"
+x509-parser = "0.17.0"
